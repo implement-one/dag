@@ -1,0 +1,34 @@
+{
+  "name": "@implement/dag",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "prepublish": "npm run build"
+  },
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "author": {
+    "name": "Adam Snodgrass"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@types/styled-components": "^4.1.19",
+    "@types/uuid": "^3.4.5",
+    "rollup": "^1.25.2",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.7.0-beta"
+  },
+  "dependencies": {
+    "color": "^3.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.0",
+    "uuid": "^3.3.3"
+  }
+}
